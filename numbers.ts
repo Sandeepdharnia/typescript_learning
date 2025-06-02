@@ -15,25 +15,25 @@ console.log(oct, hex, binary);
 
 // convert string to number 
 
-var item: number = 100;
+var item1: number = 100;
 var item2 = '50';
 
 // convert item2 to number 
 
 var item2Converted = + item2;
-console.log(item2Converted+item);
+console.log(item2Converted+item1);
   
 
 // number without declaration  
 
-var data = 40
-data = 450
+var data1 = 40
+data1 = 450
 //data = 'abd'
 
 // Sometimes we need a variable that hold both types values 
 
-var data1: number | string = 40;
+var data2: number | string = 40;
 
-data1 = "abc"
+data2 = "abc"
 
-console.log(data1);
+console.log(data2);
