@@ -10,3 +10,12 @@ no need to compile file per file
 
 If compiled file must be in one folder then we need to change 
 "tsconfig.js/compilerOptions/"outDir": "./","
+
+---------------------------------------------------
+declaration means how we declared our data 
+
+"tsconfig.js/compilerOptions/"declaration": true, 
+It will create an extra file just for declaration 
+ex. app.d.ts
+
+It will will help to check quickly the declaration of variables 
